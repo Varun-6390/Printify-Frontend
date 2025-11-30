@@ -91,7 +91,7 @@ export default function Dashboard() {
 
       {/* MAIN CONTENT */}
       <main
-        className={`flex-1 p-6 sm:p-10 transition-all duration-300 text-white z-10 
+        className={`flex-1 p-0 sm:p-10 transition-all duration-300 text-white z-10 
         ${open ? "ml-[260px]" : "ml-[80px]"} 
         sm:${open ? "ml-[260px]" : "ml-[90px]"}
         `}
