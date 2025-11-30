@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/Images/printify-removebg-preview.png"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -11,7 +12,8 @@ const Navbar = () => {
       <div className="backdrop-blur-lg bg-black/40 border-b border-white/10 shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
 
-          <div className="text-2xl font-semibold text-white tracking-wide">
+          <div className="text-2xl font-semibold text-white tracking-wide flex">
+            <img src={logo} alt="" style={{height:50,marginRight:10}} />
             Printify
           </div>
 
