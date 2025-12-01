@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-300 font-sans py-16 relative overflow-hidden">
+    <footer className="bg-black text-gray-300 font-sans py-16 relative overflow-hidden" id="contacts">
 
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,255,200,0.12),transparent_70%)]"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle,transparent,rgba(0,0,0,0.85))]"></div>
@@ -98,9 +98,9 @@ const Footer = () => {
 
           <div className="flex space-x-4">
             {[
-              ["fa-facebook", "https://facebook.com"],
+              ["fa-facebook", "https://www.facebook.com/share/17XhGM7Enx/"],
               ["fa-x-twitter", "https://twitter.com"],
-              ["fa-linkedin", "https://linkedin.com"],
+              ["fa-instagram", "https://www.instagram.com/_.printify?igsh=OHB4cWhubjRrNTlu"],
             ].map(([icon, url], i) => (
               <a
                 key={i}

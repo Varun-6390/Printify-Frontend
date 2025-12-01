@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import logo from "../assets/Images/printify-removebg-preview.png"
+import Footer from "./Footer";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -42,10 +43,10 @@ const Navbar = () => {
 
             <li>
               <Link
-                to="/"
+                to="/#contacts"
                 onClick={() => setOpen(false)}
                 className="hover:text-teal-300 transition">
-                About
+                Contact us
               </Link>
             </li>
 
