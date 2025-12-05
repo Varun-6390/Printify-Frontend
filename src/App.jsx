@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import './App.css'
-import SmoothScroll from "./components/SmoothScroll";
 import Home from './pages/Home'
 import Registration from './pages/User/Registration'
 import UserLogin from './pages/User/UserLogin'
@@ -27,7 +26,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <SmoothScroll>
+    <>
       <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname}>
           <Route path='/' element={<Home />} />
@@ -63,7 +62,7 @@ function App() {
           </Route>
         </Routes>
       </AnimatePresence>
-      </SmoothScroll>
+      </>
   )
 }
 

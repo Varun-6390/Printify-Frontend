@@ -18,11 +18,3 @@
     transform-origin: top;
 }
 
-html,
-body {
-  overflow: hidden;
-}
-
-[data-scroll-container] {
-  min-height: 100vh;
-}
