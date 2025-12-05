@@ -17,3 +17,12 @@
     background: #0f0f0f;
     transform-origin: top;
 }
+
+html,
+body {
+  overflow: hidden;
+}
+
+[data-scroll-container] {
+  min-height: 100vh;
+}
