@@ -27,8 +27,6 @@ function App() {
   const location = useLocation();
 
   return (
-
-    <>
     <SmoothScroll>
       <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname}>
@@ -66,7 +64,6 @@ function App() {
         </Routes>
       </AnimatePresence>
       </SmoothScroll>
-    </>
   )
 }
 
